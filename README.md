@@ -19,6 +19,9 @@ Welcome to Daily Task Tracker! This platform is designed to help users manage th
 
 ## Quick Start
 
+### Demo
+![demo video](./public/assets/video.mp4)
+
 ### Home Page
 ![Home Page](./public/assets/home.png)
 
