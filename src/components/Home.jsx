@@ -9,7 +9,7 @@ function Home() {
     <>
        <div className="top-0 left-0 flex justify-between items-center w-full h-10 bg-slate-100 p-10 text-black text-xl md:text-2xl font-semibold">
       Notes
-          <a href="/docs" className='bg-slate-700 rounded-xl p-2 text-slate-100 font-xl md:hover:scale-110 transition-transform duration-300'>Add Yours</a>
+          <a href="/docs" className='bg-slate-700 rounded-xl p-2 text-slate-100 text-[20px] md:hover:scale-110 transition-transform duration-300'>Add Yours</a>
        </div>
        <div className="relative w-full h-screen bg-slate-700 text-white flex flex-col lg:flex-row">
   
