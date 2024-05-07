@@ -35,10 +35,10 @@ Welcome to Daily Task Tracker! This platform is designed to help users manage th
     <img target="_blank" src="./public/assets/res.png" alt="Blogs" style="width: 24%; display: inline-block; margin-right: 1%;">
   </a>
   <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced-series-2">
-    <img target="_blank" src="./public/assets/res2.png" alt="Pages" style="width: 24%; display: inline-block; margin-right: 1%;">
+    <img target="_blank" src="./public/assets/res4.png" alt="Pages" style="width: 24%; display: inline-block; margin-right: 1%;">
   </a>
   <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced">
-    <img target="_blank" src="./public/assets/res.png" alt="Blogs" style="width: 24%; display: inline-block; margin-right: 1%;">
+    <img target="_blank" src="./public/assets/res3.png" alt="Blogs" style="width: 24%; display: inline-block; margin-right: 1%;">
   </a>
   <a target="_blank" href="https://aryankadam.hashnode.dev/react-js-beginner-to-advanced-series-2">
     <img target="_blank" src="./public/assets/res2.png" alt="Pages" style="width: 24%; display: inline-block;">
