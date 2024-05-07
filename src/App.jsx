@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomeWithRoute showHome={showHome} setShowHome={setShowHome} />} />
-        <Route path="/notes" element={<NotesWithOutlet />} />
+        <Route path="/docs" element={<NotesWithOutlet />} />
       </Routes>
     </Router>
   );
