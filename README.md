@@ -75,7 +75,7 @@ To get started with the project, follow these steps:
 
 ## Contributors
 
-- [Your Name](https://github.com/your_username) - Project Lead & Developer
+- [Aryan](https://github.com/aryyan0701) - Project Lead & Developer
 
 ## License
 
