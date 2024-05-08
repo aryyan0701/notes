@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IoCheckmarkCircleOutline, IoCheckmarkCircle } from 'react-icons/io5';
 import { RiDeleteBinLine } from 'react-icons/ri';
+import { IoArrowBackOutline } from "react-icons/io5";
 import { motion } from "framer-motion"
 import { useRef } from 'react';
 import { FaEdit } from "react-icons/fa";
@@ -97,14 +98,17 @@ function Notespage() {
 
   return (
     <>
+     <div className="flex-row w-full h-[30px] bg-slate-100 p-10 text-black text-xl md:text-2xl md:hidden">
+      <a href="/" className='text-black'><IoArrowBackOutline className='text-gray-900 text-[24px] rounded'></IoArrowBackOutline></a>
+       </div>
       <div ref={ref} className="relative w-full h-screen bg-zinc-800 flex flex-wrap justify-start">
         <h1 className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] text-[12vw] leading-none tracking-tighter">
           DOCS
         </h1>
-        <button onClick={openModal} className="absolute bottom-28 right-10 bg-blue-600 text-white text-xl px-4 py-2 rounded-md">
+        <button onClick={openModal} className="absolute sm:bottom-28 sm:right-10 bottom-[13rem] right-[2rem] bg-blue-600 text-white text-xl px-4 py-2 rounded-md">
           Add Task
         </button>
-        <div className="absolute bottom-3 right-8 card w-50 p-4 bg-slate-100 text-black text-[20px] font-bold rounded-lg">
+        <div className="absolute sm:bottom-3 sm:right-8 bottom-[7rem] right-[2rem] card w-50 p-4 bg-slate-100 text-black text-[20px] font-bold rounded-lg">
           <h2 className="ml-2">Completed tasks: <span className="text-green-500">{completeTasksCount}</span></h2>
           <h2 className="ml-2">Pending tasks: <span className="text-gray-500">{pendingTasksCount}</span></h2>
         </div>
