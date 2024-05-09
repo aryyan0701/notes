@@ -20,10 +20,6 @@ Welcome to Daily Task Tracker! This platform is designed to help users manage th
 ## Quick Start
 
 ### Demo
-<video width="320" height="240" controls>
-  <source src="./public/assets/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ### Home Page
 ![Home Page](./public/assets/home.png)
